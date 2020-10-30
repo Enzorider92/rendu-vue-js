@@ -1,0 +1,63 @@
+{
+  "name": "",
+  "players": [
+    {
+      "name": "Salade",
+      "position": "Légume",
+      "health": "available",
+      "image": "salade.jpg"
+    },
+    {
+      "name": "Oignon",
+      "position": "Légume",
+      "health": "available",
+      "image": "oignon.jpg"
+    },
+    {
+      "name": "Aneth",
+      "position": "Plante aromatique",
+      "health": "out",
+      "image": "aneth.jpg"
+    },
+    {
+      "name": "Abricot",
+      "position": "Fruit",
+      "health": "available",
+      "image": "abricot.jpg"
+    },
+    {
+      "name": "Tomate",
+      "position": "Légume",
+      "health": "available",
+      "image": "tomate.jpg"
+    },
+
+    {
+      "name": "Riz",
+      "position": "Féculent",
+      "health": "out",
+      "image": "riz.jpg"
+    },
+
+    {
+      "name": "Noix de coco",
+      "position": "Fruit",
+      "health": "out",
+      "image": "noix.jpg"
+    },
+
+    {
+      "name": "Betrave",
+      "position": "Légume",
+      "health": "available",
+      "image": "betrave.jpg"
+    },
+
+    {
+      "name": "Artichaut",
+      "position": "Légume",
+      "health": "available",
+      "image": "arti.jpg"
+    }
+  ]
+}
