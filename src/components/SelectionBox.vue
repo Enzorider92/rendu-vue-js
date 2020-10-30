@@ -1,7 +1,7 @@
 <template>
   <div>Ma sélection : {{ selection.length }}
-    <span v-if="nbrJoueurs">joueurs</span>
-    <span v-else>joueur</span>
+    <span v-if="nbrIngredients">Ingredients</span>
+    <span v-else>Ingredients</span>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
   name: "selection-box",
   props: ['selection'],
   computed: {
-    nbrJoueurs() {
+    nbrIngredients() {
       if(this.selection.length > 1){
         return true
       }

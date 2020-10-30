@@ -20,7 +20,7 @@ export default {
   data() {
     return {
       navigation: [
-        { name: "Les ingrédient", component: "player-list" },
+        { name: "Les ingrédient", component: "Legumineuse-list" },
         { name: "Ma sélection d'ingrédient", component: "selection-list" }
       ]
     }

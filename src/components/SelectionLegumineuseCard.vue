@@ -4,10 +4,10 @@
     class="border border-green-700 m-2 p-2 rounded flex justify-between"
   >
 
-  <p> {{player.name }} </p>
-  <p> {{player.position}} </p>
-  <p> {{player.birthDate}} </p>
-  <img :src="`${loadImg(player.image)}`" alt=""/>
+  <p> {{Legumineuse.name }} </p>
+  <p> {{Legumineuse.position}} </p>
+  <p> {{Legumineuse.birthDate}} </p>
+  <img :src="`${loadImg(Legumineuse.image)}`" alt=""/>
 
 
   </div>
@@ -18,8 +18,8 @@
 const images = require.context('@/assets/images', false, /\.jpg$|\.jpeg$/)
 
 export default {
-  name: "selection-player-card",
-  props: ['player'],
+  name: "selection-Legumineuse-card",
+  props: ['Legumineuse'],
   methods: {
     loadImg(imgPath) {
       return images('./' + imgPath)

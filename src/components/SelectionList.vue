@@ -4,12 +4,12 @@
  
  <ul id="example-1">
   <li v-for="(item, index) in selection" :key="index">
-    <selectionPlayerCard
-    :player="item"
+    <selectionLegumineuseCard
+    :Legumineuse="item"
     >
 
 
-      </selectionPlayerCard>
+      </selectionLegumineuseCard>
   </li>
 </ul>
 
@@ -17,13 +17,13 @@
 
 <script>
 
-import selectionPlayerCard from './SelectionPlayerCard.vue'
+import selectionLegumineuseCard from './SelectionLegumineuseCard.vue'
 
 export default {
   name: "selection-list",
   props: ['selection'],
   components: {
-    selectionPlayerCard
+    selectionLegumineuseCard
   },
   methods: {
   }

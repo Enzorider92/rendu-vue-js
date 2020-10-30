@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import PlayerList from './components/PlayerList.vue'
+import LegumineuseList from './components/LegumineuseList.vue'
 import SelectionList from './components/SelectionList.vue'
 
 import NavBar from './components/navigation/NavBar.vue'
@@ -23,13 +23,13 @@ import NavBar from './components/navigation/NavBar.vue'
 export default {
   name: 'App',
   components: {
-    PlayerList,
+    LegumineuseList,
     NavBar,
     SelectionList
   },
   data() {
     return {
-      selectedComponent: 'player-list',
+      selectedComponent: 'Legumineuse-list',
       selectionArray: []
     }
   },
@@ -45,8 +45,8 @@ export default {
     updateSelectedComponent(comp) {
       this.selectedComponent = comp
     },
-    updateSelection(player) {
-      this.selectionArray.push(player)
+    updateSelection(Legumineuse) {
+      this.selectionArray.push(Legumineuse)
     }
   }
 }
